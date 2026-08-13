@@ -27,3 +27,10 @@ what you're building.
 
 - LinkedIn:
 - GitHub:
+
+## How this works
+
+- The SVG card is rendered by `render_card.py` — see [render_card.py](render_card.py).
+- Live GitHub stats are fetched and written by `generate_readme.py`, which calls
+  `render_card.py` to produce `dark_mode.svg` and `light_mode.svg`.
+  See [generate_readme.py](generate_readme.py) for the GraphQL query and workflow.
