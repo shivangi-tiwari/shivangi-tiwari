@@ -13,7 +13,7 @@ dark_mode.svg / light_mode.svg back into this repo. GitHub's <picture>
 tag then shows whichever one matches the viewer's system theme.
 -->
 
-## About Me
+<!-- ## About Me
 
 Write a short bit about yourself here — what you do, what you're learning,
 what you're building.
@@ -33,4 +33,4 @@ what you're building.
 - The SVG card is rendered by `render_card.py` — see [render_card.py](render_card.py).
 - Live GitHub stats are fetched and written by `generate_readme.py`, which calls
   `render_card.py` to produce `dark_mode.svg` and `light_mode.svg`.
-  See [generate_readme.py](generate_readme.py) for the GraphQL query and workflow.
+  See [generate_readme.py](generate_readme.py) for the GraphQL query and workflow. -->
