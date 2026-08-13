@@ -1,0 +1,22 @@
+<svg width="500" height="290" viewBox="0 0 500 290" xmlns="http://www.w3.org/2000/svg" font-family="'Consolas','Courier New',monospace">
+  <rect width="500" height="290" rx="10" fill="#0d1117" />
+  <text x="30" y="45" font-size="20" font-weight="bold" fill="#58a6ff">shivangi-tiwari@github</text>
+  <line x1="30" y1="58" x2="300" y2="58" stroke="#8b949e" stroke-width="1" />
+
+  <text x="30" y="95" font-size="14" fill="#58a6ff">Account Age</text>
+  <text x="180" y="95" font-size="14" fill="#c9d1d9">6 years, 289 days</text>
+
+  <text x="30" y="125" font-size="14" fill="#58a6ff">Repositories</text>
+  <text x="180" y="125" font-size="14" fill="#c9d1d9">15</text>
+
+  <text x="30" y="155" font-size="14" fill="#58a6ff">Total Stars</text>
+  <text x="180" y="155" font-size="14" fill="#c9d1d9">36</text>
+
+  <text x="30" y="185" font-size="14" fill="#58a6ff">Followers</text>
+  <text x="180" y="185" font-size="14" fill="#c9d1d9">4</text>
+
+  <text x="30" y="215" font-size="14" fill="#58a6ff">Commits (past year)</text>
+  <text x="230" y="215" font-size="14" fill="#c9d1d9">48</text>
+
+  <text x="30" y="260" font-size="11" fill="#8b949e">Last updated 2026-08-13 02:37 UTC</text>
+</svg>
