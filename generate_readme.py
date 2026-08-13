@@ -94,45 +94,12 @@ def get_stats():
     }
 
 
-SVG_TEMPLATE = """<svg width="500" height="290" viewBox="0 0 500 290" xmlns="http://www.w3.org/2000/svg" font-family="'Consolas','Courier New',monospace">
-  <rect width="500" height="290" rx="10" fill="{bg}" />
-  <text x="30" y="45" font-size="20" font-weight="bold" fill="{accent}">{user}@github</text>
-  <line x1="30" y1="58" x2="300" y2="58" stroke="{muted}" stroke-width="1" />
-
-  <text x="30" y="95" font-size="14" fill="{accent}">Account Age</text>
-  <text x="180" y="95" font-size="14" fill="{fg}">{account_age}</text>
-
-  <text x="30" y="125" font-size="14" fill="{accent}">Repositories</text>
-  <text x="180" y="125" font-size="14" fill="{fg}">{repos}</text>
-
-  <text x="30" y="155" font-size="14" fill="{accent}">Total Stars</text>
-  <text x="180" y="155" font-size="14" fill="{fg}">{stars}</text>
-
-  <text x="30" y="185" font-size="14" fill="{accent}">Followers</text>
-  <text x="180" y="185" font-size="14" fill="{fg}">{followers}</text>
-
-  <text x="30" y="215" font-size="14" fill="{accent}">Commits (past year)</text>
-  <text x="230" y="215" font-size="14" fill="{fg}">{commits_last_year}</text>
-
-  <text x="30" y="260" font-size="11" fill="{muted}">Last updated {generated}</text>
-</svg>
-"""
-
-THEMES = {
-    "dark": {"bg": "#0d1117", "fg": "#c9d1d9", "accent": "#58a6ff", "muted": "#8b949e"},
-    "light": {"bg": "#ffffff", "fg": "#24292f", "accent": "#0969da", "muted": "#57606a"},
-}
-
-
-def render_svg(stats, theme):
-    colors = THEMES[theme]
-    return SVG_TEMPLATE.format(user=USER_NAME, **stats, **colors)
-
-
 def main():
+    from render_card import render_svg  # neofetch-style renderer, see render_card.py
+
     stats = get_stats()
     for theme in ("dark", "light"):
-        svg = render_svg(stats, theme)
+        svg = render_svg(USER_NAME, stats, theme)
         filename = f"{theme}_mode.svg"
         with open(filename, "w") as f:
             f.write(svg)
