@@ -1,49 +1,43 @@
 # Hi, I'm Shivangi 👋
 
-Full-stack / backend engineer based in Bengaluru, India. Former production engineering intern at **Vimeo**, B.Tech in Information Technology from **IET Lucknow**. I build things end to end, from backend services to polished interfaces, and I'm especially interested in AI-powered developer tools.
+**Full-stack / backend engineer in Bengaluru, previously at Vimeo.** I freelance and build things end to end, from backend services to polished interfaces. I'm especially interested in AI-powered developer tools.
 
-## Experience
+## 🛠️ What I've built
 
-**Software Engineering Intern, Vimeo** (Dec 2021 – Jun 2022)
-- Built a **Facebook iFrame integration** that drove ~35k new user signups per month
-- Built an **Exif tagging microservice** handling high weekly request volume in production
+**MR Risk Predictor**: an autonomous AI triage system that scores merge-request risk and flags security vulnerabilities, using Claude models and multi-agent logic triggered from CI/CD. Selected and published to the GitLab AI Catalog at the GitLab × Anthropic Hackathon (~7,000 participants).
 
-## Featured Projects
+**Urumi MCP Gateway**: a Kubernetes platform where a single MCP gateway fronts a WooCommerce store, MCP servers, and a React dashboard. It has role-based tool permissions, API keys, audit logs, SSRF checks, encrypted upstream credentials, and an AI chat agent that goes through the same gateway. Deployed with Helm on k3d / k3s. [Repo](https://github.com/shivangi-tiwari/urumi) · [Demo](https://vimeo.com/1239588452)
 
-### MR Risk Predictor
-Autonomous AI triage system that scores merge-request risk and flags security vulnerabilities, using Anthropic Claude models, multi-agent logic, and CI/CD-triggered scoring. Built with a GitLab Duo Flow.
-- Selected and published to the **GitLab AI Catalog** (GitLab × Anthropic Hackathon, ~7,000 participants)
-- 139 commits in a 14-day sprint, including branches, tags, and semantic releases
-- [Devpost](https://devpost.com/software/mr-risk-predictor)
+**Birthday Wish**: an open-source, customizable birthday-website generator with puzzle-based game logic. 40+ ⭐ [Repo](https://github.com/shivangi-tiwari/birthday_wish) · [Live](https://remarkable-nasturtium-ec9aeb.netlify.app/)
 
-### Birthday Wish
-Open-source, customizable birthday-website generator with puzzle-based game logic.
-- React, TypeScript, Tailwind CSS, Vite, deployed on Netlify
-- 30+ GitHub stars
+**Clarity With Mimansa**: a professional website for an emotional clarity coach, built with Next.js, Tailwind, and Framer Motion.
 
-### Clarity With Mimansa
-Professional website built for a client, an emotional clarity coach.
-- Next.js, Tailwind, Framer Motion, Google Apps Script / Sheets backend
+**SRE Forge AI** *(in progress)*: FastAPI + Next.js, built for the WeMakeDevs × Zerops hackathon.
 
-### SRE Forge AI *(in progress)*
-Built during the WeMakeDevs × Zerops hackathon.
-- FastAPI, Next.js, PostgreSQL, Zerops, Anthropic integration
+## 💼 Experience
 
-## Tech
+**Freelance Full-Stack Developer**
+Building websites and web apps for clients, from design to deployment.
 
-**Backend:** FastAPI, PostgreSQL, microservices
-**Frontend:** React, Next.js, TypeScript, Tailwind CSS, Framer Motion, Vite
-**AI / Cloud:** Anthropic Claude, GitLab Duo, Google Cloud (Vertex AI, Cloud Run, BigQuery, ADK), RAG
-**Problem solving:** 1000+ problems solved across LeetCode, CodeChef, CodeForces, InterviewBit, and SPOJ; top 5 percentile in CodeChef Code Ensemble
+**Previously at Vimeo**
+- Built a Facebook iFrame integration that drove ~35k new user signups per month
+- Built an Exif tagging microservice running in production
 
-## Credentials
+## ⚙️ Tech
 
-- Google Cloud Gen AI Academy, APAC Edition, Cohort 3
+- **Backend:** FastAPI, PostgreSQL, microservices
+- **Frontend:** React, Next.js, TypeScript, Tailwind CSS, Framer Motion, Vite
+- **Cloud / infra:** Kubernetes, Helm, Google Cloud (Vertex AI, Cloud Run, BigQuery, ADK)
+- **AI:** Anthropic Claude, GitLab Duo, RAG, MCP
 
-## Get in touch
+## 🧩 Problem solving
 
-- LinkedIn: [linkedin.com/in/shivangi-tiwarii07](https://linkedin.com/in/shivangi-tiwarii07)
-- Email: workacc722@gmail.com
+1000+ problems solved across LeetCode, CodeChef, CodeForces, InterviewBit, and SPOJ. Top 5 percentile in CodeChef Code Ensemble.
 
----
-*Currently open to software engineering roles.*
+## 🎓 Credentials
+
+Google Cloud Gen AI Academy, APAC Edition, Cohort 3
+
+## 📫 Get in touch
+
+[LinkedIn](https://linkedin.com/in/shivangi-tiwarii07) · workacc722@gmail.com
